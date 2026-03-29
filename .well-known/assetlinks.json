@@ -3,6 +3,6 @@
   "target": {
     "namespace": "android_app",
     "package_name": "com.craftyplanner.app",
-    "sha256_cert_fingerprints": ["PASTE_YOUR_SHA256_HERE"]
+    "sha256_cert_fingerprints": ["18:66:7E:A5:C9:FB:18:42:14:0A:A1:35:05:19:EF:94:EC:4C:4E:80:A4:B3:E1:E4:58:F2:EA:DF:57:B9:0C:F3"]
   }
 }]
