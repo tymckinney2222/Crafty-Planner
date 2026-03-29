@@ -1,9 +1,10 @@
 /* ── Crafty Planner Service Worker ── */
-const CACHE_NAME = 'crafty-planner-v1';
+const CACHE_NAME = 'crafty-planner-v2';
 const STATIC_ASSETS = [
   './',
   './index.html',
   './manifest.json',
+  './tyriah-logo.png',
   './android-icon-192.png',
   './android-icon-512.png',
   './apple-icon-180.png',
