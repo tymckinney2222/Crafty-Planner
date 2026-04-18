@@ -1,0 +1,83 @@
+{
+  "name": "Crafty Planner",
+  "short_name": "Crafty Planner",
+  "description": "The small business dashboard for makers and sellers. Manage orders, expenses, customers, products and more.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#3d2e1f",
+  "theme_color": "#c4956a",
+  "icons": [
+    {
+      "src": "android-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "android-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "android-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "android-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-mobile.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "label": "Manage your orders on the go",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "label": "Full business dashboard",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Order",
+      "short_name": "New Order",
+      "description": "Add a new customer order",
+      "url": "./index.html?action=new-order",
+      "icons": [{ "src": "android-icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "New Expense",
+      "short_name": "New Expense",
+      "description": "Log a new expense",
+      "url": "./index.html?action=new-expense",
+      "icons": [{ "src": "android-icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Scan Receipt",
+      "short_name": "Scan Receipt",
+      "description": "Scan a receipt with your camera",
+      "url": "./index.html?action=scan-receipt",
+      "icons": [{ "src": "android-icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Today's Calendar",
+      "short_name": "Calendar",
+      "description": "Jump to the calendar view",
+      "url": "./index.html?action=calendar",
+      "icons": [{ "src": "android-icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    }
+  ]
+}
